@@ -51,6 +51,9 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.11.0)
+    passenger (5.0.9)
+      rack
+      rake (>= 0.8.1)
     polyglot (0.3.5)
     rack (1.5.3)
     rack-test (0.6.3)
@@ -110,6 +113,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  passenger
   rails (= 4.0.4)
   sass-rails (~> 4.0.2)
   sdoc
